@@ -36,7 +36,7 @@ echo "========================"
 
 # CLONE SOURCE CODE
 echo "Clone Source Code landing-page"
-https://github.com/endiwinanda/landing-page.git
+git clone https://github.com/endiwinanda/landing-page.git
 mv landing-page/* /var/www/welcome.local/html/
 rm -rf landing-page
 echo "Done!!!"
